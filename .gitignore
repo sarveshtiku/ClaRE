@@ -1,0 +1,42 @@
+# Large dataset files (too big for GitHub)
+data/harmful/all_*.csv
+data/harmful/all_*.jsonl
+data/benign/all_*.csv
+data/benign/all_*.jsonl
+data/processed/all_*.csv
+data/processed/all_*.jsonl
+data/processed/combined_dataset.csv
+data/processed/train.csv
+data/processed/val.csv
+data/processed/test.csv
+data/processed/*.jsonl
+data/raw/*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
